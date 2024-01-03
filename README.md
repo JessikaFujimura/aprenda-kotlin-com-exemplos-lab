@@ -8,3 +8,16 @@ Desafio de Projeto criado para avaliação do conteúdo técnico explorado no re
 ```kotlin
 TODO("Crie uma solução em Koltin abstraindo esse domínio. O arquivo [desafio.kt] te ajudará 😉")
 ```
+## Resolução do desafio
+
+O desafio primeiramente cria a entidade Usuário com o nome informado via input no console.
+
+Logo após é exibido uma listagem de Formações pré-cadastradas.
+
+Em seguida se pede para digitar o número da formação que se deseja matricular.
+
+A confirmação da matricula é feita por uma mensagem: **"*Usuário* matriculado na formação *Nome da formação* com sucesso!"**
+
+### Pontos a melhorar no código: 
+- Incluir a validação para caso o usuário informe um número da formação inexistente;
+- Criar a opção de desmatricular do curso
